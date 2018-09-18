@@ -795,3 +795,7 @@ $databases['default']['default'] = array (
 );
 $settings['install_profile'] = 'standard';
 $config_directories['sync'] = 'sites/default/files/config_GI84Y9azZ2BYJJZ5fhl11WqzXYVbIfmrsbTGm7xSm9RH2dhAq1jMFnX5yqmmT58RIaAwB5644g/sync';
+
+ if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
+   include $app_root . '/' . $site_path . '/settings.local.php';
+ }
