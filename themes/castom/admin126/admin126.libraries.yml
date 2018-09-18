@@ -1,0 +1,13 @@
+bootstrap:
+    css:
+        theme:
+            css/bootstrap.min.css: {}
+    js:
+        js/bootstrap.min.js: {}
+
+custom:
+    css:
+        theme:
+            css/style.css: {}
+    js:
+        js/full.js: {}

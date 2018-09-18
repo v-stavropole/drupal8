@@ -1,0 +1,14 @@
+name: admin126
+description: 'Сайт компьютерной помощи: admin126.ru'
+type: theme
+core: 8.x
+
+libraries:
+    - admin126/bootstrap
+    - admin126/custom
+
+regions:
+    header: 'Header'
+    content: 'Content'
+    left: 'Left Side Bar'
+    footer: 'Footer'

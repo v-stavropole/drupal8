@@ -1,0 +1,5 @@
+body{background: #eee;}
+.header{background: #1280DF; color: #fff;}
+.footer{background: #000; color: #fff;}
+.header a, .footer a{ color: #fff;}
+.left{background: #888}
